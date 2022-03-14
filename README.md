@@ -1,10 +1,10 @@
 # UFOs
 
 ## Overview of Analysis
-The purpose of this project was to take our previous created, dynamic workpage and provide a more in-depth analysis of UFO sightings. The intent was to allow users the opportunity to filter for multiple criteria at the same time (date, city, state, country, & shape).
+The purpose of this project was to take our previously created workpage and provide a more in-depth analysis of UFO sightings. The intent was to allow users the opportunity to filter for multiple criteria at the same time (date, city, state, country, & shape).
 
 ## Results
-The outcome of our work provides the user the opoprtunity to filter for multiple criteria, as exhibited in the following screenshot of the page.:
+The outcome of our work provides the user the opoprtunity to filter for multiple criteria, as exhibited in the following screenshot of the page:
 
 <img width="1373" alt="Screen Shot 2022-03-14 at 12 04 31 PM" src="https://user-images.githubusercontent.com/95551195/158233777-0e7522ea-1d76-49c7-ba68-af35f148002b.png">
 
@@ -23,4 +23,7 @@ The user can filter using multiple searches simultaneously such as date, city, s
 <img width="1383" alt="Screen Shot 2022-03-14 at 12 11 09 PM" src="https://user-images.githubusercontent.com/95551195/158234727-b946b222-7662-48f3-afcc-f3f1f22fb372.png">
 
 ## Summary
-This updated filter allows the user a variety of options to explore a broader database. However, the setup also shows some general drawbacks. First, needs to complete a fair amount of independent searches to determine the scope of their search (a possibility for time waste in familiarization with platform). Secondly, the dataset itself is not cleaned, as exhibited in 'Duration' column of the final image above (6 minutes vs 15 min). This may lead to missed datapoints.  
+This updated filter allows the user a variety of options to explore a broader database. However, the setup also shows some general drawbacks. First, the user needs to complete a fair amount of independent searches to determine the scope of their search (a possibility for time waste in familiarization with platform). Secondly, the dataset itself is not cleaned, as exhibited in 'Duration' column of the final image above (6 minutes vs 15 min). This may lead to missed data/searches on behalf of the user. 
+
+## Recommendations
+There are several updates to the page we could provide to improve user experience. One of which is to remove the case sensitive nature of the filters (as CA vs ca will yield different results). Secondly, providing the user the full scope of 'Shape' could yield increase functionality (ex - would the user know to search for 'formation' under shape?). Continuous work on the webpage will only improve user experience. 
